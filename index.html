@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <header class="header-section container flex-div">
+        <img src="./images/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#popular-section">Products</a></li>
+                <li><a href="#service-section">Services</a></li>
+                <li><a href="#testimonial-section">Testimonials</a></li>
+                <li><a href="#newsletter-section">Support</a></li>
+            </ul>
+        </nav>
+        <div class="search-cart">
+            <input type="text" placeholder="Search">
+            <a href=""><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+<!-- hero section -->
+    <section id="hero-section" class="main-section container">
+        <div class="delivery-info">
+            <span class="delivery-type">Bike Delivery</span>
+            <h1>THE FASTEST</h1>
+            <h1><span>DELIVERY</span> IN <span>YOUR CITY</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo, sed proin amet a vestibulum enim volutpat lacus. Volutpat arcu sit sed tortor etiam volutpat ipsum.</p>
+            <div class="buttons">
+                <a href="#" class="order-btn">Order Now</a>
+                <a href="#" class="order-process"><i class="fa-solid fa-circle-play"></i> Order Process</a>
+            </div>
+        </div>
+        <div class="food-items ">
+            <div class="food-card">
+                <img src="./images/burger.png" alt="Burger">
+                <div class="box">
+                    <h3>Burger</h3>
+                    <p>Mushroom Sauce</p>
+                    <div class="price"><span>$</span>5.15</div>
+                </div>
+            </div>
+            <div class="food-card">
+                <img src="./images/foodcombo.png" style="margin-top: 18px;" alt="Food Combo">
+                <div class="box">
+                    <h3>Food Combo</h3>
+                    <p>Mushroom Sauce</p>
+                    <div class="price"><span>$</span>9.15</div>
+                </div>
+            </div>
+            <div class="food-card">
+                <img src="./images/pizza.png" style="margin-top: -10px;" alt="Pizza">
+                <div class="box">
+                    <h3>Pizza</h3>
+                    <p>Mushroom Sauce</p>
+                    <div class="price"><span>$</span>6.15</div>
+                </div>
+            </div>
+            <div class="food-card">
+                <img src="./images/cake.png" style="margin-top: -35px;" alt="Cake"> 
+                <div class="box">
+                    <h3>Cake</h3>
+                    <p>Mushroom Sauce</p>
+                    <div class="price"><span>$</span>5.15</div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- hero section ends here -->
+<!-- contact section starts here -->
+    <section id="contact-section" class="info-section container">
+        <div class="info-box">
+            <i class="fas fa-clock"></i>
+            <div class="info-text">
+                <h4>Today 10:00am - 10:00pm</h4>
+                <p>Working time</p>
+            </div>
+        </div>
+        <div class="info-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="info-text">
+                <h4>Mohammadpur, Dhaka</h4>
+                <p>Our Location</p>
+            </div>
+        </div>
+        <div class="info-box">
+            <i class="fas fa-phone-alt"></i>
+            <div class="info-text">
+                <h4>+88 017 0000 0000</h4>
+                <p>Phone Number</p>
+            </div>
+        </div>
+    </section>
+<!-- contact section ends here -->
+<!-- popular collection section starts here -->
+    <div id="popular-section" class="most-popular-items container">
+        <p>Product</p>
+        <h1>Most Popular Items</h1>
+        <div class="product-grid">
+
+            <div class="b-outside">
+                <div class="product-card">
+                    <img class="product-image" src="./images/p1.jfif" alt="Gyro Sandwich">
+                    <div class="b-full">
+                        <div class="b1 flex-div">
+                            <h3>Gyro Sandwich</h3>
+                            <p class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </p>
+                        </div>
+                        <div class="b2 flex-div">
+                            <button class="add-to-cart-btn">Add To Cart</button>
+                            <p class="price"><span>$</span>15.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b-outside">
+                <div class="product-card">
+                    <img class="product-image" src="./images/p2.jfif"  alt="Enchilade">
+                    <div class="b-full">
+                        <div class="b1 flex-div">
+                            <h3>Enchilade</h3>
+                            <p class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>5.0</span>
+                            </p>
+                        </div>
+                        <div class="b2 flex-div">
+                            <button class="add-to-cart-btn">Add To Cart</button>
+                            <p class="price">$25.50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b-outside">
+                <div class="product-card">
+                    <img class="product-image" src="./images/p3.jfif" alt="Green Beans">
+                    <div class="b-full">
+                        <div class="b1 flex-div">
+                            <h3>Green Beans</h3>
+                            <p class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </p>
+                        </div>
+                        <div class="b2 flex-div">
+                            <button class="add-to-cart-btn">Add To Cart</button>
+                            <p class="price">$12.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b-outside">
+                <div class="product-card">
+                    <img class="product-image" src="./images/p4.jfif" alt="Pizza">
+                    <div class="b-full">
+                        <div class="b1 flex-div">
+                            <h3>Pizza</h3>
+                            <p class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>5.0</span>
+                            </p>
+                        </div>
+                        <div class="b2 flex-div">
+                            <button class="add-to-cart-btn">Add To Cart</button>
+                            <p class="price">$18.50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b-outside">
+                <div class="product-card">
+                    <img class="product-image" src="./images/p5.jfif" alt="Chicken Pot Pie">
+                    <div class="b-full">
+                        <div class="b1 flex-div">
+                            <h3>Chicken Pot Pie</h3>
+                            <p class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </p>
+                        </div>
+                        <div class="b2 flex-div">
+                            <button class="add-to-cart-btn">Add To Cart</button>
+                            <p class="price">$25.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b-outside">
+                <div class="product-card">
+                    <img class="product-image" src="./images/p6.jfif" alt="Green Salad">
+                    <div class="b-full">
+                        <div class="b1 flex-div">
+                            <h3>Green Salad</h3>
+                            <p class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </p>
+                        </div>
+                        <div class="b2 flex-div">
+                            <button class="add-to-cart-btn">Add To Cart</button>
+                            <p class="price">$15.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="see-more">
+            <button id="see-more-button" class="see-more-button" type="button" onclick="handleShowMore()">See More Products
+                <i class="fa-solid fa-circle-play"></i>
+            </button>
+        </div>
+        
+        <div id="more-products-container" class="product-grid"></div> <!-- New container -->
+        
+        <div class="see-more">
+            <button id="show-less-button" class="see-more-button" type="button" onclick="handleShowLess()" style="display:none;">Show Less Products
+                <i class="fa-solid fa-circle-minus"></i>
+            </button>
+        </div>
+        
+    </div>
+<!-- popular section ends here -->
+<!-- services section starts here -->
+    <section id="service-section" class="service-block container">
+        <div class="service-header">
+            <p>Services</p>
+            <h2>Why Choose Our Favourite Food</h2>
+        </div>
+        <div class="service-body container flex-div">
+    
+            <div class="service-card">
+                <div class="place">
+                    <i class="fa-solid fa-utensils"></i>
+                    <div class="service-info">
+                        <h3>Qualityfull Food</h3>
+                        <p class="info">But I must explain to you how all this
+                            mistaken idea of denouncing pleasur and
+                            prasising pain was bron.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="place">
+                    <i class="fa-solid fa-spoon"></i>
+                    <div class="service-info">
+                        <h3>Healty Food</h3>
+                        <p class="info">But I must explain to you how all this
+                            mistaken idea of denouncing pleasur and
+                            prasising pain was bron.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="place">
+                    <i class="fa-solid fa-truck"></i>
+                    <div class="service-info">
+                        <h3>Fast Delivery</h3>
+                        <p class="info">But I must explain to you how all this
+                            mistaken idea of denouncing pleasur and
+                            prasising pain was bron.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- services section ends here -->
+<!-- testimonials section starts here -->
+    <section id="testimonial-section" class="testimonial-section container">
+        <p>Testimonials</p>
+        <h2>Our Happy Client Says</h2>
+        <div class="testimonial-content flex-div">
+            <div class="testimonial-text">
+                <div class="ceo-box flex-div">
+                    <img src="./images/ceo.jfif" alt="Testimonial Person">
+                    <div class="ceo-intro">
+                        <h3>Williams Jhone</h3>
+                        <p>CEO & Co-Founder</p>
+                    </div>
+                </div>
+                <i id="left-arrow" class="fa-solid fa-arrow-left"></i>
+                <i id="right-arrow" class="fa-solid fa-arrow-right"></i>
+                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nisl tincidunt adipiscing dictumst blandit hac. Lectus cras velit sed dignissim ac, aliquet. Metus egestas habitant feugiat neque ultrices nunc, dolor egestas mus.”</p>
+            </div>
+            <div class="testimonial-image">
+                <img src="./images/burgir.png" alt="Food Image">
+            </div>
+        </div>
+    </section>
+<!-- tesimonial section ends here -->
+<!-- newsletter section starts here -->
+    <div id="newsletter-section" class="newsletter-section container">
+        <img src="./images/burger.png" alt="Burger Image" class="burger-image">
+        <div class="newsletter-content">
+            <h2>Subscribe To Our Newsletter</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus mauris sem sed urna venenatis vivamus. Egestas in velit nulla viverra turpis id ac. Amet faucibus tempus.</p>
+            <form onsubmit="handleContact(event)" class="form">
+                <input type="email" placeholder="Type your email..." required>
+                <button type="submit">SUBSCRIBE</button>
+            </form>
+
+            <div style="margin-top: 20px;" id="success_container"></div>
+        </div>
+    </div>
+<!-- newsletter section ends here -->
+<!-- footer section starts here -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section logo-section">
+                <img src="./images/logo.png" style="width: 40%;" alt="logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo libero viverra dapibus odio sit malesuada in quis. Arcu tristique elementum viverra integer id.</p>
+                <div class="social-media">
+                    <a href="#" class="social-links"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-links"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-links"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="social-links"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section opening-section">
+                <h3>Opening Restaurant</h3>
+                <p>Sat-Wet: 09:00am-10:00PM</p>
+                <p>Thursday: 09:00am-11:00PM</p>
+                <p>Friday: 09:00am-8:00PM</p>
+            </div>
+            <div class="footer-section user-links">
+                <h3>User Link</h3>
+                <ul>
+                    <li><a class="tag" href="#">About Us</a></li>
+                    <li><a class="tag" href="#">Contact Us</a></li>
+                    <li><a class="tag" href="#">Order Delivery</a></li>
+                    <li><a class="tag" href="#">Payment & Tax</a></li>
+                    <li><a class="tag" href="#">Terms of Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-us">
+                <h3>Contact Us</h3>
+                <p>Mohammadpur, Dhaka</p>
+                <p>+88 017 0000 0000</p>
+                <p>+88 018 0000 0000</p>
+                <form>
+                    <input class="input-file" type="email" placeholder="Enter your email..." required>
+                    <button class="last-button" type="submit"><i class="fa-solid fa-play"></i></button>
+                </form>
+            </div>
+        </div>
+        <a href="#">
+            <div class="scroll-to-top">
+                <div class="scroll-button"><i id="scroll-button-icon" class="fas fa-arrow-circle-up"></i></div>
+            </div>
+        </a>
+    </footer>
+    <!-- footer section ends here -->
+    <script src="./script.js"></script>
+</body>
+</html>
